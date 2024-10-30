@@ -4,15 +4,15 @@ packaging_format = 2
 
 id = "wallos"
 name = "Wallos"
-description.en = "Open-Source Personal Subscription Tracker"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Personal Subscription Tracker"
+description.fr = "Outil de suivi d'abonnement personnel"
 
 version = "2.33.1~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
-license = "GPL-3.0 license"
+license = "GPL-3.0"
 demo = "https://demo.wallosapp.com"
 code = "https://github.com/ellite/Wallos"
 
