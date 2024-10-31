@@ -10,8 +10,6 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-chown -R "$app:www-data" "$install_dir"
-
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
@@ -22,6 +20,7 @@ mv "$install_dir/db/wallos.empty.db" "$install_dir/db/wallos.db"
 #=================================================
 # ADD A CRON JOB
 #=================================================
+ynh_script_progression "Adding cron file..."
 
 ynh_config_add --template=".cron" --destination="/etc/cron.d/$app"
 
