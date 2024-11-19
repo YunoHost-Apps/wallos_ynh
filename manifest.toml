@@ -16,13 +16,11 @@ license = "GPL-3.0"
 demo = "https://demo.wallosapp.com"
 code = "https://github.com/ellite/Wallos"
 
-
 [integration]
 yunohost = ">= 11.3.0"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
-
 ldap = false
 sso = false
 
