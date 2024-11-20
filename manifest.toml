@@ -7,7 +7,7 @@ name = "Wallos"
 description.en = "Personal Subscription Tracker"
 description.fr = "Outil de suivi d'abonnement personnel"
 
-version = "2.38.1~ynh1"
+version = "2.38.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -16,13 +16,11 @@ license = "GPL-3.0"
 demo = "https://demo.wallosapp.com"
 code = "https://github.com/ellite/Wallos"
 
-
 [integration]
 yunohost = ">= 11.3.0"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
-
 ldap = false
 sso = false
 
@@ -44,8 +42,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ellite/Wallos/archive/refs/tags/v2.38.1.tar.gz"
-    sha256 = "2a98a6d9a468db7fc1c8718a45f8926ef9a6968f2cdcb1c95e3ffdf210c29f4a"
+    url = "https://github.com/ellite/Wallos/archive/refs/tags/v2.38.2.tar.gz"
+    sha256 = "9182ccb3270ea128ccb87a6ce0cd60ba8ec3fed3be76c496d585c7e552c4266c"
 
     autoupdate.strategy = "latest_github_tag"
 
