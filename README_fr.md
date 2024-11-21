@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Wallos est une application Web puissante, open source et auto-hébergée conçue pour vous permettre de gérer vos finances en toute simplicité. Dites adieu aux feuilles de calcul compliquées et aux logiciels financiers coûteux : Wallos simplifie le processus de suivi des dépenses et vous aide à mieux contrôler votre vie financière.
 
 
-**Version incluse :** 2.38.2~ynh1
+**Version incluse :** 2.38.2~ynh2
 
 **Démo :** <https://demo.wallosapp.com>
 
