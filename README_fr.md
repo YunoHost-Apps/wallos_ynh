@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Wallos pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/wallos.svg)](https://ci-apps.yunohost.org/ci/apps/wallos/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/wallos.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/wallos.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/wallos)](https://ci-apps.yunohost.org/ci/apps/wallos/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/wallos)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/wallos)
 
 [![Installer Wallos avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=wallos)
 
@@ -19,7 +21,7 @@ Il NE doit PAS être modifié à la main.
 Wallos est une application Web puissante, open source et auto-hébergée conçue pour vous permettre de gérer vos finances en toute simplicité. Dites adieu aux feuilles de calcul compliquées et aux logiciels financiers coûteux : Wallos simplifie le processus de suivi des dépenses et vous aide à mieux contrôler votre vie financière.
 
 
-**Version incluse :** 2.38.2~ynh2
+**Version incluse :** 2.39.1~ynh1
 
 **Démo :** <https://demo.wallosapp.com>
 
