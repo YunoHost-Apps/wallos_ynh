@@ -21,7 +21,7 @@ NON debe editarse manualmente.
 Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease. Say goodbye to complicated spreadsheets and expensive financial software – Wallos simplifies the process of tracking expenses and helps you gain better control over your financial life.
 
 
-**Versión proporcionada:** 2.44.0~ynh1
+**Versión proporcionada:** 2.45.0~ynh1
 
 **Demo:** <https://demo.wallosapp.com>
 
