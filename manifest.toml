@@ -7,7 +7,7 @@ name = "Wallos"
 description.en = "Personal Subscription Tracker"
 description.fr = "Outil de suivi d'abonnement personnel"
 
-version = "2.45.2~ynh1"
+version = "2.46.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -43,8 +43,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ellite/Wallos/archive/refs/tags/v2.45.2.tar.gz"
-    sha256 = "5e33eb8cc34386604f96255c356465c697e90e65b2a63f7e596bc2ac980b18f7"
+    url = "https://github.com/ellite/Wallos/archive/refs/tags/v2.46.0.tar.gz"
+    sha256 = "54d8fc56381793069e0bcc977ff5ebfec5e4b63471365590d17440dabc27595f"
 
     autoupdate.strategy = "latest_github_tag"
 
@@ -57,4 +57,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.2-curl, php8.2-gd, php8.2-imagick, php8.2-intl, php8.2-sqlite3, php8.2-zip"
+    packages = "php8.3-curl, php8.3-gd, php8.3-imagick, php8.3-intl, php8.3-sqlite3, php8.3-zip"
