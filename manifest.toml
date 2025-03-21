@@ -7,7 +7,7 @@ name = "Wallos"
 description.en = "Personal Subscription Tracker"
 description.fr = "Outil de suivi d'abonnement personnel"
 
-version = "2.46.0~ynh1"
+version = "2.48.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -23,6 +23,7 @@ architectures = "all"
 multi_instance = true
 
 ldap = false
+
 sso = false
 
 disk = "50M"
@@ -30,7 +31,6 @@ ram.build = "50M"
 ram.runtime = "50M"
 
 [install]
-
     [install.domain]
     type = "domain"
 
@@ -47,8 +47,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ellite/Wallos/archive/refs/tags/v2.46.0.tar.gz"
-    sha256 = "54d8fc56381793069e0bcc977ff5ebfec5e4b63471365590d17440dabc27595f"
+    url = "https://github.com/ellite/Wallos/archive/refs/tags/v2.48.0.tar.gz"
+    sha256 = "f88f23a1289d0f6411e13e830134272df5bd1744e8430cc7056b66fff49b49e7"
 
     autoupdate.strategy = "latest_github_tag"
 
