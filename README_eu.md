@@ -21,7 +21,7 @@ EZ editatu eskuz.
 Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease. Say goodbye to complicated spreadsheets and expensive financial software – Wallos simplifies the process of tracking expenses and helps you gain better control over your financial life.
 
 
-**Paketatutako bertsioa:** 2.48.0~ynh1
+**Paketatutako bertsioa:** 2.48.1~ynh1
 
 **Demoa:** <https://demo.wallosapp.com>
 
@@ -39,7 +39,7 @@ Wallos is a powerful, open-source, and self-hostable web application designed to
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/wallos_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/wallos_ynh/tree/testing --debug
