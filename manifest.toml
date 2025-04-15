@@ -61,4 +61,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-curl, php8.3-gd, php8.3-imagick, php8.3-intl, php8.3-sqlite3, php8.3-zip"
+    packages = "php8.3-curl, php8.3-gd, php8.3-imagick, php8.3-intl, php8.3-sqlite3, php8.3-zip, php8.3-xml"
