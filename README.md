@@ -11,6 +11,7 @@ It shall NOT be edited by hand.
 Personal Subscription Tracker
 
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.wallosapp.com)
+
 ![Version: 2.49.1~ynh1](https://img.shields.io/badge/Version-2.49.1~ynh1-rgba(0,150,0,1)?style=for-the-badge)
 
 <div align="center">
