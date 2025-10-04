@@ -22,6 +22,9 @@ ynh_script_progression "Upgrading source files..."
 # Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="db/wallos.db images"
 
+ynh_script_progression "Migrating the database..."
+ynh_hide_warnings ynh_exec_as_app php$php_version $install_dir/endpoints/db/migrate.php
+
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
