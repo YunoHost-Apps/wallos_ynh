@@ -7,7 +7,7 @@ name = "Wallos"
 description.en = "Personal Subscription Tracker"
 description.fr = "Outil de suivi d'abonnement personnel"
 
-version = "4.9.6~ynh1"
+version = "4.9.6~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -60,4 +60,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.3-curl, php8.3-gd, php8.3-imagick, php8.3-intl, php8.3-sqlite3, php8.3-zip, php8.3-xml"
+    packages = "php8.4-curl, php8.4-gd, php8.4-imagick, php8.4-intl, php8.4-sqlite3, php8.4-zip, php8.4-xml"
