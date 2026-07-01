@@ -7,7 +7,7 @@ name = "Wallos"
 description.en = "Personal Subscription Tracker"
 description.fr = "Outil de suivi d'abonnement personnel"
 
-version = "4.9.6~ynh1"
+version = "4.9.6~ynh2"
 
 maintainers = ["eric_G"]
 
