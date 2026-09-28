@@ -7,7 +7,7 @@ name = "Wallos"
 description.en = "Personal Subscription Tracker"
 description.fr = "Outil de suivi d'abonnement personnel"
 
-version = "5.8.1~ynh1"
+version = "5.8.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,8 +46,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/ellite/Wallos/archive/refs/tags/v5.8.1.tar.gz"
-    sha256 = "d5ea7525250e65c249bfa8ca412026bb349526eae2255943bf3a1480f5e749d1"
+    url = "https://github.com/ellite/Wallos/archive/refs/tags/v5.8.2.tar.gz"
+    sha256 = "931c3a49ad15b93ba4b5f3c2ebf8fecea4939dc10f9964e1dbc2115cd4ac584d"
 
     autoupdate.strategy = "latest_github_tag"
 
